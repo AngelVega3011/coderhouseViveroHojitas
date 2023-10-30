@@ -463,7 +463,7 @@ li a {
 
 
 /* html contactos */
-.tituloContacto{
+/* .tituloContacto{
     display: flex;
     text-align: center;
     font-size: 30px;
@@ -517,21 +517,21 @@ li a {
     font-size: 18px;
     background-color: #e2fae2;
     font: bold;    
-}
+} */
 
 
-@media screen and (max-width:768px)
-{
+/* @media screen and (max-width:768px)
+{ */
     /* index */
 
-    #carouselExampleRide {
+    /* #carouselExampleRide {
         width: 100%;
-    }
+    } */
 
 
 
     /* footer */
-    footer h3 {
+    /* footer h3 {
         font-size: 24px;
     }
     footer h4 {
@@ -549,22 +549,22 @@ li a {
         width: 30px;
         margin-bottom: 5px;
        
-    }
+    } */
 
 
 
 
     /* nosotros */
-    .nosotros{
+    /* .nosotros{
         flex-direction: column;
         margin: 5px;}
         .nosotros div img {
             width: 75vwpx;
             margin:50px;
 
-    }
+    } */
     /* menu hamburguesa header */
-    header label {
+    /* header label {
         display: block;
         position: relative;
         height: 100%;
@@ -583,10 +583,7 @@ li a {
         background-color: #cbfccb;
         visibility:hidden;
         border: solid 1px #335133;
-        margin-left: 5px;
-        /* height: 60px;
-        font-size:16px;
-        margin-bottom: 3px;  */        
+        margin-left: 5px;    
     }
     .lista1 {
         margin: 5px;
@@ -620,4 +617,4 @@ li a {
         width: 120px; 
         display: flex;
         margin: 25px;
-    }
+    } */

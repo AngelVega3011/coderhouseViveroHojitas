@@ -30,9 +30,11 @@ header {
 }
 header #btn_menu {
     display: none;
+    
 }
 header label {
     display: none;
+    margin-left: 25px;
 }
 header label:hover{
     cursor: pointer;
@@ -88,8 +90,8 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-top: solid 5px #335133;
-    border-bottom: solid 5px #335133;
+    border-top: solid 3px #335133;
+    border-bottom: solid 3px #335133;
     height: auto;
     font-size: 25px;    
 } 
@@ -98,9 +100,9 @@ header h1 {
     justify-content: center;
     align-items: center;
     margin: auto;
-    justify-content: space-around; 
-    flex-direction: column;
-    flex-direction: row;   
+    justify-content: space-around;
+    height: 45px;
+
 }
 
 .lista1 {
@@ -594,10 +596,12 @@ li a {
         display: block;
         position: relative;
         height: 100%;
-
+        width: 40px;
+        margin-top: -50px;
+        padding-bottom: 10px;
     }
     header label img {
-        width: 45px;
+        width: 40px;
     }
     .navegacion1 {
         flex-direction: column;
@@ -609,26 +613,28 @@ li a {
         background-color: #cbfccb;
         visibility:hidden;
         border: solid 1px #335133;
+        border-radius: 5px;
         margin-left: 5px;       
     }
     .lista1 {
-        margin: 5px;
+        margin: 5px 10px 5px 10px;
        
     }
     .lista1 a {
         padding: 0;
         font-size: 20px;
-
     }
     #btn_menu:checked~.navlista1{
         visibility: visible;
-        z-index: 1;
+        z-index: 9;
+        margin-left: 20px;
     }
     .desk {
         display: none;
     }
     .media {
         display: flex;
+        margin: 0;
     }
     header {
         margin-top: 10px; 
@@ -639,10 +645,10 @@ li a {
     .carrito {
         display: none;
     }
-    .logo {
-        width: 120px; 
+    .media img {
+        width: 100px; 
         display: flex;
-        margin: 25px;
+        margin: 5px;
     }
 
 
