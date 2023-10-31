@@ -204,7 +204,7 @@ footer h4 {
     justify-content: center;
 }
 .nosotros div img {
-    width: 400px;
+    width: 500px;
     margin:50px;
 }
 .nosotros .textoNosotros {
@@ -215,7 +215,7 @@ footer h4 {
 .textoNosotros h3 {
     font-size: 30px;
     margin-top: 15px;
-    margin-left: 150px;
+    
 }
 .textoNosotros p {
     font-size: 25px;
