@@ -23,11 +23,12 @@ header .headerfixed .encabezado {
   flex-direction: column;
   align-items: star;
   text-align: center;
+  justify-content: center;
 }
-header .headerfixed .encabezado .desk h1 {
+header .headerfixed .encabezado h1 {
   font-size: 50px;
 }
-header .headerfixed .encabezado .desk h2 {
+header .headerfixed .encabezado h2 {
   font-size: 30px;
   font-weight: bold;
   margin-top: 15px;
@@ -48,17 +49,17 @@ header .headerfixed .carrito img {
   width: 40px;
   margin: 5px;
 }
-header .headerfixed label {
+header label {
   display: none;
   margin-left: 25px;
 }
-header .headerfixed label:hover {
+header label:hover {
   cursor: pointer;
 }
-header .headerfixed #btn_menu {
+header #btn_menu {
   display: none;
 }
-header .headerfixed .media {
+header .media {
   display: none;
 }
 header .navlista1 {

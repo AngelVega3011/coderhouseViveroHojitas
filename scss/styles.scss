@@ -1,74 +1,84 @@
-header{
+header {
     background-repeat: no-repeat;
-    background: wide 100; height: 200 px;
-    background-image: url(../imagenes/fondoHeader.png);    
-    .headerfixed{
+    background: wide 100;
+    height: 200 px;
+    background-image: url(../imagenes/fondoHeader.png);
+
+    .headerfixed {
         height: 160px;
         display: flex;
         align-items: center;
         justify-content: space-around;
+
         .desk {
-            .logo{
-                width: 135px; 
+            .logo {
+                width: 135px;
                 display: flex;
-                -webkit-box-shadow: 10px 10px 17px 3px rgba(0,0,0,0.66);
-                -moz-box-shadow: 10px 10px 17px 3px rgba(0,0,0,0.66);
-                box-shadow: 10px 10px 17px 3px rgba(0,0,0,0.66);;
+                -webkit-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+                -moz-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+                box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+                ;
                 border-radius: 50%;
             }
         }
+
         .encabezado {
             display: flex;
             flex-direction: column;
             align-items: star;
             text-align: center;
-            .desk {
-                h1 {
-                    font-size: 50px;
-                }
-                h2 {
-                    font-size: 30px;
-                    font-weight: bold;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                }  
+            justify-content: center;
+            h1 {
+                font-size: 50px;
             }
+
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
             .media {
                 display: none;
-            }            
-            
+            }
+
         }
-      
+
         .carrito {
             display: flex;
             text-align: right;
             margin-top: 100px;
             align-items: end;
-            justify-content: right;               
-                img {
+            justify-content: right;
+
+            img {
                 padding: 5px;
                 width: 40px;
                 margin: 5px;
-                }
-         }
-                   
-        
-
-        label {
-            display: none;
-            margin-left: 25px;
-            &:hover{
-                cursor: pointer;
             }
-        } 
-        #btn_menu {          
-            display: none;
         }
-        .media {
-            display: none;
-        }       
+
+        
     }
-    .navlista1{
+    label {
+        display: none;
+        margin-left: 25px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    #btn_menu {
+        display: none;
+    }
+
+    .media {
+        display: none;
+    }
+
+    .navlista1 {
         background-color: #cbfccb;
         display: flex;
         align-items: center;
@@ -77,38 +87,36 @@ header{
         border-bottom: solid 3px #335133;
         height: auto;
         font-size: 25px;
-        .navegacion1{
-            display: flex; 
+
+        .navegacion1 {
+            display: flex;
             justify-content: center;
             align-items: center;
             margin: auto;
             justify-content: space-around;
             height: 45px;
-            .lista1{
+
+            .lista1 {
                 inline-size: none;
                 display: inline-block;
-                margin: 0px 20px 0px 20px; 
+                margin: 0px 20px 0px 20px;
                 text-align: center;
+
                 a {
-                    color:#335133;
+                    color: #335133;
                     font-weight: bold;
                     padding: 5px;
-                    &:hover{
-                        color:#cbfccb;
+
+                    &:hover {
+                        color: #cbfccb;
                         background-color: #335133;
                         padding: 7px;
                         border-radius: 10px;
                     }
 
                 }
-            } 
-        }   
+            }
+        }
 
     }
 }
-
-
-
-
-
-
