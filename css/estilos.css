@@ -235,6 +235,7 @@ footer h4 {
 .tiendaGeneral {
     display: flex;
    justify-content: center;
+   margin-top: 50px;
 }
 .imagentienda {
     width: 200px;
