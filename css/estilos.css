@@ -358,6 +358,7 @@ footer h4 {
 .btn:hover {
     background-color:#335133;
     color: #cbfccb;
+    border: #335133 solid 1px;
 }
 
 /* html sorteos */
@@ -574,12 +575,19 @@ li a {
 
     /* nosotros */
     .nosotros{
-        flex-direction: column;
-        margin: 5px;}
-        .nosotros div img {
-            width: 75vwpx;
-            margin:50px;
-
+        width: 100vw;
+        flex-direction: column;    
+        margin: 5px;}    
+    .nosotros .textoNosotros{
+        width: 80vw;
+    }
+    .nosotros div img {
+            width: 75vw;
+            margin:25px;
+    }
+    .videoNosotros {
+        width: 80vw;
+        height: auto;
     }
     /* menu hamburguesa header */
     header label {
