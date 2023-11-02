@@ -597,7 +597,7 @@ li a {
     }
     .videoNosotros {
         width: 80vw;
-        height: auto;
+        height: 100%;
         margin-top: 2px;
     }
     /* menu hamburguesa header */
