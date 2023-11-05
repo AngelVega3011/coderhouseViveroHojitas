@@ -1,0 +1,34 @@
+@media screen and (max-width:320px){
+    .contacto{
+        display: none;
+    }
+    footer h3{
+        font-size: 16px;
+        text-align: center;
+
+
+    }
+    footer{
+        justify-content: center;
+    }
+    .contacto320 {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .contacto320 a img{
+        width: 25px;
+        margin: 0px 5px 0px 5px;
+        justify-content: center;
+    }
+
+    .tituloFooter2{
+        display: none;
+    }
+    .tituloFooter3{
+        display: flex;
+        justify-content: center;
+    }
+}

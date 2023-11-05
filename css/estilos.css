@@ -156,6 +156,9 @@ footer h4 {
     font-size: 24px;
     font-family: robotoslab;
 }
+.contacto320 {
+    display: none;
+}
 .contacto {
     display: flex;
     margin-top: 10px;
@@ -197,6 +200,9 @@ footer h4 {
 }
 
 /* html nosotros */
+.mainNosotros{
+    justify-content: center;
+}
 .nosotros {
     display: flex;
     background-color: #cbfccb;
@@ -207,8 +213,8 @@ footer h4 {
     display: none;
 }
 .nosotros div img {
-    width: 80vw;
-    margin:30px;
+    width: 50vw;
+    margin:25px;
 }
 .nosotros .textoNosotros {
     display:flex;
@@ -228,6 +234,8 @@ footer h4 {
     text-align: center;
 } 
 .nosotros div .videoNosotros {
+    width: 50vw ;
+    height: ;
     margin: 50px;
     border: #335133 solid 3px;
 }
@@ -564,6 +572,9 @@ li a {
         display: block;
         font-size: 28px;
         margin-top: 15px;
+    }
+    .contacto {
+        flex-direction: column;
     }
     .contacto img {    
         width: 30px;
