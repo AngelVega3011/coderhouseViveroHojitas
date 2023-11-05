@@ -5,8 +5,13 @@
         width: 100%;
     }
     /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     footer h3 {
-        font-size: 24px;
+        font-size: 22px;
     }
     footer h4 {
         font-size: 16px;
@@ -19,6 +24,7 @@
         display: block;
         font-size: 28px;
         margin-top: 15px;
+        justify-content: center;
     }
     .contacto {
         flex-direction: column;
