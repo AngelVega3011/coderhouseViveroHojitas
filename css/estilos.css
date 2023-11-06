@@ -228,10 +228,10 @@ footer h4 {
     
 }
 .textoNosotros p {
-    font-size: 25px;
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: center;
 } 
 .nosotros div .videoNosotros {
@@ -407,7 +407,7 @@ footer h4 {
     background-color: #cbfccb;
     border: #335133 solid 2px;
     width: auto;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .formularioSorteo {
     display: flex;
@@ -415,6 +415,7 @@ footer h4 {
     gap: 15px;
     margin-top: 15px;
     margin-left: 20px;
+    margin-right: 5px;
     width: 60vw;
 
 }
@@ -504,36 +505,6 @@ li a {
 }
 
 /* html contactos */
-.tituloContacto{
-    display: flex;
-    text-align: center;
-    font-size: 30px;
-}
-.formularioContacto {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 15px;
-    margin-left: 20px;
-}
-.formularioContacto label {
-    font-family:robotoslab;
-    font-size: 12px;
-    margin-left: 120px;
-    margin-bottom: 5px;
-    font-weight: bold;
-    margin-top: 10px;    
-}
-
-
-
-.formularioContacto input {
-    height: 40px;
-    margin-left: 50px;
-    border-radius: 8px;
-    width: 80vw;
-}
 .formularioCompleto textarea {
     height: 200px;
     width: 100%;
@@ -542,144 +513,12 @@ li a {
     border-radius: 8px;
     border: 2px solid;
 }
-.mismoRenglonConfirmacion {
-    margin-left: 100px;
-    display: flex;
-    justify-content: space-between;
+.mainContacto .formularioCompleto .lateralFormulario h5 {
+    text-align: left;
+    margin-left: 15px;
+}
+.mainContacto .formularioCompleto .lateralFormulario img {
     margin-bottom: 10px;
-
-}
-.formularioCompleto .formularioContacto .botonEnviarBorrar {
-    width: 345px;
-    margin-top: 10px;
-    border: #335133 solid 2px;
-    font-family:robotoslab;
-    font-size: 18px;
-    background-color: #e2fae2;
-    font: bold;
-    margin-left: 0px;    
 }
 
 
-
-@media screen and (max-width:768px){
-    /* index */
-
-    #carouselExampleRide {
-        width: 100%;
-    }
-    /* footer */
-    footer h3 {
-        font-size: 24px;
-    }
-    footer h4 {
-        font-size: 16px;
-        }
-    .tituloFooter {
-        display: none;
-    }
-    .tituloFooter2 {
-        display: block;
-        font-size: 28px;
-        margin-top: 15px;
-    }
-    .contacto {
-        flex-direction: column;
-    }
-    .contacto img {    
-        width: 30px;
-        margin-bottom: 5px;
-       
-    }
-
-
-
-
-    /* nosotros */
-    .nosotros{
-        width: 100vw;
-        flex-direction: column;    
-        margin: 5px;}    
-    .nosotros .textoNosotros{
-        width: 80vw;
-        margin: 0;
-    }
-    .textoNosotros h3 {
-        font-size: 25px;
-        margin-top: 10px;
-    }
-    .textoNosotros p {
-        font-size: 20px;
-        margin: 5px;
-    } 
-    .nosotros div img {
-            width: 75vw;
-            margin:25px;
-    }
-    .videoNosotros {
-        width: 80vw;
-        height: 100%;
-        margin-top: 2px;
-    }
-    /* menu hamburguesa header */
-    header label {
-        display: block;
-        position: relative;
-        height: 100%;
-        width: 40px;
-        margin-top: -50px;
-        padding-bottom: 10px;
-    }
-    header label img {
-        width: 40px;
-    }
-    .navegacion1 {
-        flex-direction: column;
-        padding: 0;
-    }
-    .navlista1 {
-        position: absolute;
-        top: 0 px;
-        background-color: #cbfccb;
-        visibility:hidden;
-        border: solid 1px #335133;
-        border-radius: 5px;
-        margin-left: 5px;       
-    }
-    .lista1 {
-        margin: 5px 10px 5px 10px;
-       
-    }
-    .lista1 a {
-        padding: 0;
-        font-size: 20px;
-    }
-    #btn_menu:checked~.navlista1{
-        visibility: visible;
-        z-index: 9;
-        margin-left: 20px;
-    }
-    .desk {
-        display: none;
-    }
-    .media768 {
-        display: flex;
-    }
-    .media {
-        display: flex;
-        margin: 0;
-    }
-    header {
-        margin-top: 10px; 
-    }
-    .headerfixed {
-        margin-bottom: 10px; 
-    }
-    .carrito {
-        display: none;
-    }
-    .media img {
-        width: 100px; 
-        display: flex;
-        margin: 5px;
-    }
