@@ -1,5 +1,8 @@
 @media screen and (max-width:768px){
     /* index */
+    .media320 {
+        display: none;
+    }
 
     #carouselExampleRide {
         width: 100%;
@@ -60,11 +63,20 @@
 
 
     /* nosotros */
-    .nosotros{
+    .mainNosotros {
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
-    .nosotros .textoNosotros{       
+    .mainNosotros h2 {
+        font-size: 42px;
+    }
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .nosotros .textoNosotros {       
         margin: 0;
         flex-direction: column;
         justify-content: center;
@@ -79,14 +91,21 @@
         text-align: center;
         
     } 
-  .textoMedia768 {
-        /* width: 85vw; */
+    .textoMedia768 {
+        width: 85vw;
+    }
+    .textoMedia768 div {
+        display: flex; 
         justify-content: center;
     }
     .nosotros div img {
             width: 75vw;
             margin:25px;
             justify-content: center;
+    }
+    .textoNosotros .textoMedia768 div {
+        display: flex;
+        justify-content: center;
     }
     .videoNosotros {
         width: 80vw;
@@ -154,5 +173,8 @@
         width: 100px; 
         display: flex;
         margin: 5px;
+    }
+    .media320 {
+        display: none;
     }
 }

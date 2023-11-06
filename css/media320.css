@@ -43,4 +43,68 @@
         justify-content: center;
     }
     
+    /* nosotros */
+    .mainNosotros h2 {
+        font-size: 32px;
+    }
+    .textoNosotros h3 {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    .textoNosotros p {
+        font-size: 12px;
+        margin: 0px 5px 0px 5px;
+    }
+    .textoMedia320 {
+        width: 85vw;
+    }
+    .accordion-body{
+        background-color: #cbfccb;
+        justify-content: center;
+    }
+    .accordion-body p {
+        color: #335133;
+        font-size: 12px;
+    }
+    .accordion-button {
+        background-color: #cbfccb;
+        width: 80%;
+        text-align: center;
+        color: #335133;
+        font-size: 12px; 
+        height: 32px; 
+        border: #cbfccb;
+        
+        --bs-accordion-active-bg: #cbfccb;
+        --bs-accordion-btn-focus-border-color: #cbcbcb      
+    }
+    .accordion {
+        display: flex;
+        justify-content: center;
+        --bs-accordion-active-bg: #cbfccb;
+        --bs-accordion-btn-focus-border-color: #cbcbcb;
 }
+    }
+    .accordion-item {
+        width: 100vw;
+        background-color: #cbfccb;
+        border: #335133 solid 2px;
+        height: auto;
+        justify-content: center;
+    }
+    .accordion-header {
+        background-color: #cbfccb;
+        display: flex;
+        justify-content: center;
+    } 
+    .accordion-collapse {
+        background-color: #cbfccb;
+        border: none;
+    }
+    .nosotros div iframe {
+        width: 80vw;
+        height: ;
+    }
+    .nosotros {
+        justify-content: center;
+    }
