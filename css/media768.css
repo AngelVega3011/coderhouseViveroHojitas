@@ -4,11 +4,18 @@
     #carouselExampleRide {
         width: 100%;
     }
+    /* body */
+    body {
+        height: 100%;
+    }
     /* footer */
     footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        /* position: absolute; */
+        width:100%;
+        bottom: 0;
     }
     footer h3 {
         font-size: 22px;
@@ -39,7 +46,17 @@
         margin: 0; 
     }
 
+/* sorteos */
 
+.textoSorteo1 {     
+    font-size: 48px;
+    font-weight: 800;
+}
+.textoSorteo2{
+    font-size: 36px;
+    margin-bottom: 10px;
+    width: 400px;
+}
 
 
     /* nosotros */

@@ -156,9 +156,10 @@ footer h4 {
     font-size: 24px;
     font-family: robotoslab;
 }
-.contacto320 {
+.contacto320
+{
     display: none;
-}
+} 
 .contacto {
     display: flex;
     margin-top: 10px;
@@ -371,21 +372,21 @@ footer h4 {
 }
 
 /* html sorteos */
-.textoSorteo h2{
+
+.textoSorteo1{
 
     font-family:roboto slab;  
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 1200;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.textoSorteo h3{
-    color: #125f12;
+.textoSorteo2{
+    color: #335133;
     text-align: center;
     font-family: roboto slab; 
-    font-size: 48px;
+    font-size: 36px;
     margin-bottom: 10px;
-    width: 600px;
     align-items: center;
 }
 .textoSorteo {
@@ -402,28 +403,29 @@ footer h4 {
 }
 .formularioCompleto{
     display: flex;
-    margin: 40px;
+    margin: 20px;
     background-color: #cbfccb;
     border: #335133 solid 2px;
+    width: auto;
 }
 .formularioSorteo {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 850px;
     margin-top: 15px;
     margin-left: 20px;
+    width: 60vw;
+
 }
 .formularioSorteo input{
     height: 40px;
-    width: 700px;
-    margin-left: 100px;
+    width: 100%;
     border-radius: 8px;
 }
 .formularioCompleto .formularioSorteo label {
     font-family:robotoslab;
     font-size: 12px;
-    margin-left: 120px;
+    margin-left: 35px;
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -432,14 +434,19 @@ footer h4 {
     justify-content: center;
 }
 .formularioCompleto .formularioSorteo .cargaRenglon{
-    width: 345px;
+    width: 30vw;
 }
 .formularioCompleto .formularioSorteo .cargaRenglon2{
-    width: 345px;
-    margin-left: 10px;
+    width: 30vw;
+    margin-left: 5px;
 }
+.mismoRenglon{
+    display: flex;
+    flex-direction: row;
+}
+
 .formularioCompleto .formularioSorteo .botonEnviar{
-    width: 345px;
+    width: 30vw;
     margin-top: 10px;
     border: #335133 solid 2px;
     font-family:robotoslab;
@@ -449,9 +456,10 @@ footer h4 {
 }
 
 .formularioCompleto .formularioSorteo .botonBorrar{
-    width: 345px;
-    margin-left: 10px;
+    width: 30vw;
+    margin-left: 5px;
     margin-top: 10px; 
+    margin-bottom: 20px;
     border: #335133 solid 2px;
     font-family:robotoslab;
     font-size: 18px;
@@ -462,8 +470,7 @@ footer h4 {
 .lateralSorteo {
     display: flex;
     flex-direction: column;
-    margin: 20px 25px 10px 25px;
-
+    margin: 10px 15px 10px 15px;
     align-items: center; 
 }
 .lateralSorteo h4 {
@@ -473,13 +480,11 @@ footer h4 {
 }
 .lateralSorteo h5 {
     font-size: 16px;
-    /* color: #335133; */
     text-align: center;
     margin-bottom: 10px;
-    /* font-family:robotoslab; */
 }
 .lateralSorteo div div img {
-    width: 300px;
+    width: 25vw;
     align-items: center;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -503,13 +508,20 @@ li a {
     text-align: center;
     font-size: 30px;
 }
-.formularioCompleto {
+.mainContacto .formularioCompleto{
     display: flex;
     justify-content: center;
+    justify-content: center;
     margin-bottom: 10px;
+    width: 75%;
 }
 .formularioContacto {
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 .formularioContacto label {
     font-family:robotoslab;
@@ -517,14 +529,19 @@ li a {
     margin-left: 120px;
     margin-bottom: 5px;
     font-weight: bold;
-    margin-top: 10px;
-    
+    margin-top: 10px;    
 }
+
+
+
+
+
+
 .formularioContacto input {
     height: 40px;
-    width: 700px;
-    margin-left: 100px;
+    margin-left: 50px;
     border-radius: 8px;
+    width: 80vw;
 }
 .formularioContacto textarea {
     height: 200px;

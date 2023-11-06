@@ -9,12 +9,14 @@
 
     }
     footer{
+        background-color: #cbfccb;
         justify-content: center;
     }
     .contacto320 {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-bottom: 15px;
         
     }
     .contacto320 a img{
