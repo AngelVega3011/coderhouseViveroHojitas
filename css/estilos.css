@@ -407,6 +407,7 @@ footer h4 {
     background-color: #cbfccb;
     border: #335133 solid 2px;
     width: auto;
+    margin-right: 10px;
 }
 .formularioSorteo {
     display: flex;
@@ -467,23 +468,23 @@ footer h4 {
     font: bold;    
 }
 
-.lateralSorteo {
+.lateralFormulario {
     display: flex;
     flex-direction: column;
     margin: 10px 15px 10px 15px;
     align-items: center; 
 }
-.lateralSorteo h4 {
+.lateralFormulario h4 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
 }
-.lateralSorteo h5 {
+.lateralFormulario h5 {
     font-size: 16px;
     text-align: center;
     margin-bottom: 10px;
 }
-.lateralSorteo div div img {
+.lateralFormulario div div img {
     width: 25vw;
     align-items: center;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -508,13 +509,6 @@ li a {
     text-align: center;
     font-size: 30px;
 }
-.mainContacto .formularioCompleto{
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    width: 75%;
-}
 .formularioContacto {
     margin-top: 15px;
     display: flex;
@@ -534,20 +528,19 @@ li a {
 
 
 
-
-
-
 .formularioContacto input {
     height: 40px;
     margin-left: 50px;
     border-radius: 8px;
     width: 80vw;
 }
-.formularioContacto textarea {
+.formularioCompleto textarea {
     height: 200px;
-    width: 700px;
-    margin-left: 100px;
+    width: 100%;
+    padding-right: 10px;
+    margin-right: 10px;
     border-radius: 8px;
+    border: 2px solid;
 }
 .mismoRenglonConfirmacion {
     margin-left: 100px;
