@@ -1,4 +1,14 @@
 @media screen and (max-width:320px){
+    .desk {
+        display: none;
+    }
+    .media768 {
+        display: none;
+    }
+    .media320 {display: flex;
+    }
+    
+    
     .contacto{
         display: none;
     }
@@ -32,4 +42,5 @@
         display: flex;
         justify-content: center;
     }
+    
 }

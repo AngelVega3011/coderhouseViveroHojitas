@@ -213,6 +213,9 @@ footer h4 {
 .media768 {
     display: none;
 }
+.media320 {
+    display: none;
+}
 .nosotros div img {
     width: 50vw;
     margin:25px;
