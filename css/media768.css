@@ -61,24 +61,32 @@
 
     /* nosotros */
     .nosotros{
-        width: 100vw;
-        flex-direction: column;    
-        margin: 5px;}    
-    .nosotros .textoNosotros{
-        width: 80vw;
-        margin: 0;
+        flex-direction: column;
+        align-items: center;
     }
-    .textoNosotros h3 {
+    .nosotros .textoNosotros{       
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .textoMedia768 h3 {
         font-size: 25px;
         margin-top: 10px;
     }
-    .textoNosotros p {
-        font-size: 20px;
-        margin: 5px;
+    .textoMedia768 p {
+        font-size: 16px;
+        margin: 10px;
+        text-align: center;
+        
     } 
+  .textoMedia768 {
+        /* width: 85vw; */
+        justify-content: center;
+    }
     .nosotros div img {
             width: 75vw;
             margin:25px;
+            justify-content: center;
     }
     .videoNosotros {
         width: 80vw;
