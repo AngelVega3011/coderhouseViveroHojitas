@@ -151,10 +151,11 @@
         margin-left: 20px;
     }
     
-    .navbar{
+    .navbar .headerNav{
         position: absolute;
         visibility: visible;
-        z-index: 9;margin-top: -55px;
+        z-index: 20;
+        margin-top: -55px;
         /* margin-left: 10px; */
         width: 100%;
     }
@@ -166,7 +167,7 @@
     }
     .nav-item {
         text-align: start;
-}
+    }
 
     .desk {
         display: none;
@@ -195,4 +196,5 @@
     .media320 {
         display: none;
     }
+    
 }

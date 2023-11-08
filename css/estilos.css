@@ -582,3 +582,66 @@ li a {
 }
 
 
+.navbar .container-fluid .filtro{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand {
+        font-family: ubuntu;
+        font-size: 24px;
+        margin-left: 20px;
+        font-weight: bold;
+        color: #335133;
+        width: 10vw;
+}
+.dropdown {
+    width: 35vw;
+} 
+.dropdown-menu {
+        background-color: #cbfccb;
+       
+        width: 35vw;
+}
+.dropdown-menu form{
+    margin-left: 15px;
+}
+.dropdown-menu label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.dropdown-menu .aplicarFiltros{ 
+    margin-top: 15px;
+}
+.dropdown-menu .filtroPrecios {
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.dropdown-menu .filtroPrecios input {
+    margin-top: 15px;
+    text-align: center;
+    width: 80%;
+}    
+/*
+    
+
+
+    
+    
+.listaPrecio {
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;    
+        justify-content: space-between;}
+
+.dropdown-menu .listaPrecios p{
+     
+            font-size: 16px;
+            font-weight: bold;
+}
+.rangoPrecio {
+            width: 150px;
+            align-self: center;
+}
+ */
+ */
