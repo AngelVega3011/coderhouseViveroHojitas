@@ -150,6 +150,15 @@
         z-index: 9;
         margin-left: 20px;
     }
+    
+    .navbar{
+        position: absolute;
+        visibility: visible;
+        z-index: 9;margin-top: -55px;
+        margin-left: 10px;
+        width: 40vw;
+    }
+
     .desk {
         display: none;
     }
