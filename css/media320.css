@@ -83,6 +83,7 @@
         justify-content: center;
         --bs-accordion-active-bg: #cbfccb;
         --bs-accordion-btn-focus-border-color: #cbcbcb;
+        justify-content: ;
 }
     }
     .accordion-item {
