@@ -28,12 +28,16 @@ h1, h2, h3, h4, h5{
     align-items: center;
     margin: auto;
     justify-content: space-around;
-} 
+}
+ 
 .navbar-toggler-icon {
     background-image: url(../imagenes/menuHamburguesa.png);
 }
 .navbar-toggler.collapsed {
     background-color: none;
+}
+.navbar-toggler {
+    padding: 3px;
 }
 .container-fluid{
     background-color: #cbfccb;
@@ -41,6 +45,9 @@ h1, h2, h3, h4, h5{
     padding-top: 0;
     padding-top: 0;
 
+}
+.carrito{
+    margin-right: 10px;
 }
 .carrito img{
     width: 30px;
@@ -60,12 +67,12 @@ h1, h2, h3, h4, h5{
 .nav-link {
 color: #335133;
   font-weight: bold;
-  padding: 5px;
+  padding: 0px;
 }
-.nav-item:hover {
+.nav-link:hover {
     color: #cbfccb;
     background-color: #335133;
-    padding: 7px;
+    padding: 0px;
     border-radius: 10px;
   }
 

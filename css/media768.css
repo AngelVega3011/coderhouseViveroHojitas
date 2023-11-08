@@ -155,9 +155,18 @@
         position: absolute;
         visibility: visible;
         z-index: 9;margin-top: -55px;
-        margin-left: 10px;
-        width: 40vw;
+        /* margin-left: 10px; */
+        width: 100%;
     }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+    }
+    .nav-item {
+        text-align: start;
+}
 
     .desk {
         display: none;
