@@ -196,5 +196,86 @@
     .media320 {
         display: none;
     }
+
+    /* navbar */
+    .navbar{
+        border-top: #335133 solid 2px;
+        border-bottom:  #335133 solid 2px;
+        display: flex; 
+        flex-direction: column; 
+    }
+    
+    .carrito{
+        display: none;
+    }
+    .nav-item {
+        margin: 0px 10px 0px 10px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    /* filtros de tienda */
+    .navbar .container-fluid .filtro{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar-brand {
+            font-family: ubuntu;
+            font-size: 20px;
+            margin-left: 20px;
+            font-weight: bold;
+            color: #335133;
+            width: 10vw;
+    }
+    .dropdown {
+        width: 35vw;
+    } 
+    .dropdown-menu {
+            background-color: #cbfccb;
+           
+            width: 35vw;
+    }
+    .dropdown-menu form{
+        margin-left: 15px;
+    }
+    .dropdown-menu label{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .dropdown-menu .aplicarFiltros{ 
+        margin-top: 15px;
+    }
+    .dropdown-menu .filtroPrecios {
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+    .dropdown-menu .filtroPrecios input {
+        margin-top: 15px;
+        text-align: center;
+        width: 80%;
+    }
+    .listaPrecio {
+        display: flex;
+        margin-left: 15px;
+        margin-right: 15px;    
+        justify-content: space-between;
+    } 
+    .dropdown-menu p{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .dropdown-menu li div input {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px; 
+        margin-top: 15px;
+        text-align: center;       
+    }
     
 }
