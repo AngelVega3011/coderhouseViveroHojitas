@@ -280,7 +280,7 @@ footer h4 {
 .nosotros .textoNosotros {
     display:flex;
     flex-direction: column;
-    width: 800px;
+    width: 50vw;
 }
 .textoNosotros h3 {
     font-size: 30px;
@@ -310,6 +310,9 @@ footer h4 {
 .imagentienda {
     width: 200px;
     height: 200px;
+}
+.filtroMedia768{
+    display: none;
 }
 .filtrosTienda{
     display: flex;
@@ -398,6 +401,7 @@ footer h4 {
 }
 .card {
     margin-bottom: 20px;
+    width: 20rem;
 }
 .card-body {
     text-align: center;
@@ -579,6 +583,7 @@ li a {
 .mainContacto .formularioCompleto .lateralFormulario img {
     margin-bottom: 10px;
 }
+header
 
 
 /*

@@ -6,17 +6,13 @@
         display: none;
     }
     .media320 {display: flex;
-    }
-    
-    
+    }    
     .contacto{
         display: none;
     }
     footer h3{
         font-size: 16px;
         text-align: center;
-
-
     }
     footer{
         background-color: #cbfccb;
@@ -26,15 +22,13 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-bottom: 15px;
-        
+        margin-bottom: 15px;        
     }
     .contacto320 a img{
         width: 25px;
         margin: 0px 5px 0px 5px;
         justify-content: center;
     }
-
     .tituloFooter2{
         display: none;
     }
@@ -83,8 +77,6 @@
         justify-content: center;
         --bs-accordion-active-bg: #cbfccb;
         --bs-accordion-btn-focus-border-color: #cbcbcb;
-        justify-content: ;
-}
     }
     .accordion-item {
         width: 100vw;
@@ -104,8 +96,85 @@
     }
     .nosotros div iframe {
         width: 80vw;
-        height: ;
     }
     .nosotros {
         justify-content: center;
     }
+    
+    /* navbar */
+    .navbar{
+        border-top: #335133 solid 2px;
+        border-bottom:  #335133 solid 2px;
+        display: flex; 
+        flex-direction: column; 
+    }
+    .carrito{
+        display: none;
+    }
+    .nav-item {
+        margin: 0px 8px 0px 8px;
+        font-size: 16px;
+    }
+    .container-fluid ul {
+        
+        padding: 0px;
+
+    }
+
+    /* filtros de tienda */
+    .navbar{
+        align-items: center;
+    }
+    
+    .navbar-brand {display: none;
+    }
+    .dropdown-menu form{
+        margin-left: 12px;
+    }
+    .dropdown-menu label{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .dropdown-menu .aplicarFiltros{ 
+        margin-top: 15px;
+    }
+    .dropdown-menu .filtroPrecios {
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+    .dropdown-menu .filtroPrecios input {
+        margin-top: 15px;
+        text-align: center;
+        width: 80%;
+    }
+    .listaPrecio {
+        display: flex;
+        margin-left: 15px;
+        margin-right: 15x;    
+        justify-content: space-between;
+    } 
+    .dropdown-menu p{
+        font-size: 12px;
+    }
+    .dropdown-menu li div input {
+        width: 75%;
+        align-items: center;
+        margin-left: 25px;
+        margin-top: 15px;       
+    }
+    .filtro ul {
+        padding: 0px;
+    }
+    .filtro .nav-item {
+        margin: 0px 10px 0px 10px;
+        font-size: 12px;
+    }
+    /* html tienda */
+    .card h6 {
+        font-size: 12px;
+    }
+    .card {
+        width: 80vw;
+        margin-bottom: 15px;
+    }
+}

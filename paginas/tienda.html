@@ -71,14 +71,16 @@
       </div>
     </nav>
   </header>
+
   <main>
 
    
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary headerNav media768" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary headerNav filtroMedia768" >
       <div class="container-fluid filtro">
-        <a class="navbar-brand" href="#">Filtros</a>            
+        <a class="navbar-brand" href="#">Filtros</a>
+          <ul>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Tipos de Plantas
@@ -120,8 +122,7 @@
                   <div class="aplicarFiltros">
                     <input type="submit" value="Aplicar Filtros">
                   </div>
-                </li>
-                
+                </li>                
               </ul>
             </li>
 
@@ -131,7 +132,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <div>
+                  <div class="rango">
                     <input  
                     type="range" />
                   </div>
@@ -143,15 +144,14 @@
                     <p>$15.000</p>
                   </div>
                 </li>
-                  
-                  </li>
                 <li>
                 <div class="aplicarFiltros">
                   <input type="submit" value="Aplicar Filtros">
                 </div>
                 </li>
               </ul>              
-            </li>            
+            </li>
+          </ul>                    
         </div>
       </div>
     </nav>
@@ -216,7 +216,7 @@
         </div>
       </section>
       <section class="cardsTienda">
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda1.png" class="card-img-top" alt="amarilys">
           <div class="card-body">
             <h5 class="card-title">Amarilys</h5>
@@ -226,7 +226,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda2.png" class="card-img-top" alt="equinopsis">
           <div class="card-body">
             <h5 class="card-title">Equinopsis</h5>
@@ -236,7 +236,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda3.png" class="card-img-top" alt="helechoEspada">
           <div class="card-body">
             <h5 class="card-title">Helecho Espada</h5>
@@ -246,7 +246,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda4.png" class="card-img-top" alt="suculentaSiempreviva">
           <div class="card-body">
             <h5 class="card-title">Suculentas Siemprevivas</h5>
@@ -256,7 +256,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda5.png" class="card-img-top" alt="crassula">
           <div class="card-body">
             <h5 class="card-title">Crassula</h5>
@@ -266,7 +266,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda6.png" class="card-img-top" alt="monsteraDeliciosa">
           <div class="card-body">
             <h5 class="card-title">Monstera Deliciosa</h5>
@@ -276,7 +276,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda7.png" class="card-img-top" alt="violetaAfricana">
           <div class="card-body">
             <h5 class="card-title">Violeta Africana</h5>
@@ -286,7 +286,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda8.png" class="card-img-top" alt="polaskia">
           <div class="card-body">
             <h5 class="card-title">Polaskia</h5>
@@ -296,7 +296,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda9.png" class="card-img-top" alt="calatheaOrbifolia">
           <div class="card-body">
             <h5 class="card-title">Calathea Orbifolia</h5>
@@ -306,7 +306,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda10.png" class="card-img-top" alt="anturios">
           <div class="card-body">
             <h5 class="card-title">Anturios</h5>
@@ -316,7 +316,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda11.png" class="card-img-top" alt="adiantumCapullus">
           <div class="card-body">
             <h5 class="card-title">Adiantum Capillus</h5>
@@ -326,7 +326,7 @@
             <a href="#" class="btn btn-primary">Agregar al Carrito</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card">
           <img src="../imagenes/imagenesProyecto/tienda12.png" class="card-img-top" alt="begonias">
           <div class="card-body">
             <h5 class="card-title">Begonias</h5>
