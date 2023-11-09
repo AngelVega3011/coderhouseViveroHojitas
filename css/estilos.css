@@ -62,7 +62,8 @@ h1, h2, h3, h4, h5{
     display: inline-block;
     margin: 0px 20px 0px 20px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
+    
 }
 .nav-link { 
     color: #335133;
@@ -264,7 +265,7 @@ footer h4 {
 .nosotros {
     display: flex;
     background-color: #cbfccb;
-    margin: 50 px;
+    margin: 50px;
     justify-content: center;
 }
 .media768 {
@@ -396,7 +397,6 @@ footer h4 {
     display: flex;
     flex-wrap:wrap;
     gap: 25px;
-    width: 1400px;
     justify-content: center;
 }
 .card {
@@ -583,15 +583,3 @@ li a {
 .mainContacto .formularioCompleto .lateralFormulario img {
     margin-bottom: 10px;
 }
-header
-
-
-/*
-    
-
-
-    
-    
-
-
- */
