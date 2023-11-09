@@ -195,5 +195,67 @@
     .card {
         width: 80vw;
         margin-bottom: 15px;
+    }/* html super ofertas */
+    .superOfertas h3 {
+        font-size: 30px;
+        
     }
+    /* html super ofertas */
+   
+    .textoSorteo1 {     
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .textoSorteo2{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    /* html sorteo */
+    .textoSorteo1 {     
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0px 10px 0px 10px;
+    }
+    .textoSorteo2{
+        font-size: 20px;        
+        margin: 16px 16px 0px 16px;
+    }
+    
+    .formularioCompleto{
+        background-image: url(../imagenes/imagenesProyecto/sorteo2.jpeg);
+        margin: 10px;
+    }
+    
+    .formularioCompleto .media h4{
+        background-color: #cbfccb;
+        font-size: 16px;;
+    }
+    .formularioCompleto .media h5 {
+        background-color: #cbfccb;
+        font-size: 12px;
+    }
+    .formularioSorteo {
+        gap: 5px;
+        margin: 5px;
+        width: 90vw;
+    }
+    .formularioSorteo input{
+        height: 30px;
+    }
+    .formularioCompleto .formularioSorteo label {
+        font-size: 8px;
+        margin-left: 20px;
+        margin-bottom: 2px;
+        background-color: #cbfccb;
+    }
+    .formularioCompleto .formularioSorteo .botonEnviar{        
+       font-size: 12px;
+   }
+   .formularioCompleto .formularioSorteo .botonBorrar{
+       font-size: 12px;
+   }
+   
+    .lateralFormulario div div img {
+        display: none;
+    } 
 }

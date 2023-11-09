@@ -55,16 +55,6 @@
 
 /* sorteos */
 
-    .textoSorteo1 {     
-        font-size: 48px;
-        font-weight: 800;
-    }
-    .textoSorteo2{
-        font-size: 36px;
-        margin-bottom: 10px;
-        width: 400px;
-    }
-
     /* nosotros */
     .mainNosotros {
         display: flex;
@@ -83,7 +73,7 @@
     }
     .mainNosotros .media768 { 
         justify-content: center;
-        margin: 5px 25px 5px 25px
+        margin: 5px 25px 5px 25px;
     }
     .textoMedia768 {       
         margin: 0;
@@ -187,6 +177,9 @@
     }
 
     .desk {
+        display: none;
+    }
+    .deskSorteo {
         display: none;
     }
     .media {
@@ -311,7 +304,7 @@
     /* html tienda */
     .card {
         margin-bottom: 18px;
-        width: 17.5rem;
+        width: 16.5rem;
     }
     
     .cardsTienda {
@@ -324,9 +317,70 @@
     }
     /* html super ofertas */
     .superOfertas h3 {
-        text-align: center;
-        font-size: 36px;
-        text-decoration: dashed;
-        margin: 150 50 150 25;
+        font-size: 30px;        
     }
+    /* html sorteos */
+    
+
+    .textoSorteo1 {     
+        font-size: 40px;
+        font-weight: 800;
+        margin: 0px 10px 0px 10px;
+    }
+    .textoSorteo2{
+        font-size: 30px;        
+        margin: 0px 15px 0px 15px;
+    }
+    .formularioCompleto{
+        flex-direction: column;
+        margin: 15px;
+        justify-content: center;
+    }
+    .formularioCompleto .media {
+        flex-direction: column;
+    }
+    .formularioCompleto .media h4{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+    }
+    .formularioCompleto .media h5 {
+    font-size: 14px;
+    margin: 10px 15px 10px 10px;
+    text-align: right;
+    }
+    
+    .formularioSorteo {
+        gap: 10px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 90vw;
+    }
+    .formularioSorteo input{
+        height: 35px;
+        /* width: 100%; */
+        border-radius: 8px;
+    }
+    .formularioCompleto .formularioSorteo label {
+        font-size: 10px;
+        margin-left: 30px;
+        margin-bottom: 3px;
+    }  
+    .lateralFormulario div div img {
+        width: 60vw;
+        align-items: center;
+    }
+    
+    .formularioCompleto .formularioSorteo .botonEnviar{
+         width: 40vw;
+        font-size: 15px;
+    }
+    .formularioCompleto .formularioSorteo .botonBorrar{
+        width: 40vw;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+
 }
