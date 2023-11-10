@@ -1,101 +1,17 @@
-header {
-  background-repeat: no-repeat;
-  background: wide 100;
-  height: 200 px;
-  background-image: url(../imagenes/fondoHeader.png);
-}
-header .headerfixed {
-  height: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-header .headerfixed .desk .logo {
-  width: 135px;
-  display: flex;
-  -webkit-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
-  -moz-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
-  box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
-  border-radius: 50%;
-}
-header .headerfixed .encabezado {
-  display: flex;
-  flex-direction: column;
-  align-items: star;
-  text-align: center;
-  justify-content: center;
-}
-header .headerfixed .encabezado h1 {
-  font-size: 50px;
-}
-header .headerfixed .encabezado h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-header .headerfixed .encabezado .media {
-  display: none;
-}
-header .headerfixed .carrito {
-  display: flex;
-  text-align: right;
-  margin-top: 100px;
-  align-items: end;
-  justify-content: right;
-}
-header .headerfixed .carrito img {
-  padding: 5px;
-  width: 40px;
-  margin: 5px;
-}
-header label {
-  display: none;
-  margin-left: 25px;
-}
-header label:hover {
-  cursor: pointer;
-}
-header #btn_menu {
-  display: none;
-}
-header .media {
-  display: none;
-}
-header .navlista1 {
-  background-color: #cbfccb;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-top: solid 3px #335133;
-  border-bottom: solid 3px #335133;
-  height: auto;
-  font-size: 25px;
-}
-header .navlista1 .navegacion1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  justify-content: space-around;
-  height: 45px;
-}
-header .navlista1 .navegacion1 .lista1 {
-  inline-size: none;
-  display: inline-block;
-  margin: 0px 20px 0px 20px;
-  text-align: center;
-}
-header .navlista1 .navegacion1 .lista1 a {
-  color: #335133;
-  font-weight: bold;
-  padding: 5px;
-}
-header .navlista1 .navegacion1 .lista1 a:hover {
-  color: #cbfccb;
-  background-color: #335133;
-  padding: 7px;
-  border-radius: 10px;
-}
+/* Error: expected "}".
+ *     ,
+ * 136 | }
+ *     |  ^
+ *     '
+ *   scss\styles.scss 136:2  root stylesheet */
 
-/*# sourceMappingURL=styles.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 136 \2502  }\a     \2502   ^\a     \2575 \a   scss\\styles.scss 136:2  root stylesheet';
+}

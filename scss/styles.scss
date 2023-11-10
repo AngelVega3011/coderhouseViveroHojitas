@@ -1,18 +1,15 @@
 header {
     background-repeat: no-repeat;
-<<<<<<< HEAD
     background: wide 100;
     height: 200 px;
     background-image: url(../imagenes/fondoHeader.png);
 
     .headerfixed {
         height: 160px;
-=======
-    background: wide 100; height: 200 px;
-    background-image: url(../imagenes/fondoHeader.png);    
-    .headerfixed{
-        // height: 160px;
->>>>>>> fa030cdeb9c3fc13b9365cfee931a1375377dbda
+        background: wide 100; height: 200 px;
+        background-image: url(../imagenes/fondoHeader.png);}    
+    .headerfixed {
+        height: 160px;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -34,11 +31,9 @@ header {
             flex-direction: column;
             align-items: star;
             text-align: center;
-<<<<<<< HEAD
             justify-content: center;
             h1 {
                 font-size: 50px;
-=======
             .desk {
                 h1 {
                     font-size: 70px;
@@ -48,8 +43,7 @@ header {
                     font-weight: bold;
                     margin-top: 15px;
                     margin-bottom: 15px;
-                }  
->>>>>>> fa030cdeb9c3fc13b9365cfee931a1375377dbda
+                }
             }
 
             h2 {
