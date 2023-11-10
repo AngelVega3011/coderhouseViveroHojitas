@@ -2,6 +2,9 @@
     .desk {
         display: none;
     }
+    .deskMedia{
+        display: none;
+    }
     .media768 {
         display: none;
     }
