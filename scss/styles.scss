@@ -3,11 +3,11 @@ header {
     background: wide 100;
     height: 200 px;
     background-image: url(../imagenes/fondoHeader.png);
-
     .headerfixed {
         height: 160px;
         background: wide 100; height: 200 px;
-        background-image: url(../imagenes/fondoHeader.png);}    
+        background-image: url(../imagenes/fondoHeader.png);
+    }    
     .headerfixed {
         height: 160px;
         display: flex;
@@ -71,9 +71,7 @@ header {
                 width: 40px;
                 margin: 5px;
             }
-        }
-
-        
+        }        
     }
     label {
         display: none;
@@ -126,11 +124,12 @@ header {
                         background-color: #335133;
                         padding: 7px;
                         border-radius: 10px;
-                    }
+                        }
 
+                    }
                 }
             }
-        }
 
+        }
     }
 }
