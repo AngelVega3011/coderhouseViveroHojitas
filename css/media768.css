@@ -335,6 +335,7 @@
         flex-direction: column;
         margin: 15px;
         justify-content: center;
+        align-items: center;
     }
     .formularioCompleto .media {
         flex-direction: column;
@@ -352,10 +353,8 @@
     
     .formularioSorteo {
         gap: 10px;
-        margin-top: 15px;
-        margin-left: 10px;
-        margin-right: 5px;
-        width: 90vw;
+        margin: 5px;
+        width: 85vw;
     }
     .formularioSorteo input{
         height: 35px;
@@ -381,6 +380,60 @@
         margin-left: 10px;
         font-size: 15px;
     }
+    /* html contacto */
+    .mainContacto h3 {
+        font-size: 32px;
+        margin: 20px 25px 20px 25px;
+    }
+    .mainContacto .formularioCompleto h4 {
+        font-size: 18px;
+        margin: 20px 10px 10px 10px;
+    }
+    .mainContacto .formularioCompleto h5 {
+        font-size: 14px;
+        margin: 5px 10px 5px 10px;
+    }
+
+    
+    .formularioCompleto textarea {
+        height: 200px;
+        width: 100%;
+        padding-right: 10px;
+        margin-right: 10px;
+        border-radius: 8px;
+        border: 2px solid;
+    }
+    .mainContacto .formularioCompleto .lateralFormulario h5 {
+        text-align: left;
+        margin-left: 15px;
+    }
+    .mainContacto .formularioCompleto .lateralFormulario img {
+
+    margin-bottom: 10px;
+    }
+    
+    .mainContacto .formularioCompleto .contactoMedia {
+        display: flex;
+        justify-content: center;        
+    }
+    .mainContacto .formularioCompleto .contactoMedia div img{
+        display: flex;
+        justify-content: center;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        width: 80vw;
+        margin-bottom: 15px;
+    }
+ 
+
+
+
+
+
+
+
+
     
 
 }

@@ -258,4 +258,14 @@
     .lateralFormulario div div img {
         display: none;
     } 
+    
+    
+    /* html contacto */
+    .mainContacto h3 {
+        font-size: 24px;
+        margin: 20px;
+    }
+    .mainContacto .formularioCompleto{
+        background-image: none;
+    }
 }

@@ -558,8 +558,8 @@ footer h4 {
     width: 25vw;
     align-items: center;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 li a {
     text-decoration: none;
@@ -574,6 +574,15 @@ li a {
 }
 
 /* html contactos */
+.contactoMedia {
+    display: none;
+}
+.mainContacto h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 25px 30px 25px 30px;
+}
+
 .formularioCompleto textarea {
     height: 200px;
     width: 100%;
