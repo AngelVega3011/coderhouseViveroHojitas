@@ -403,6 +403,10 @@
         border-radius: 8px;
         border: 2px solid;
     }
+    
+    .mainContacto .formularioCompleto .lateralFormulario {
+        margin: 0px;
+    }
     .mainContacto .formularioCompleto .lateralFormulario h5 {
         text-align: left;
         margin-left: 15px;
