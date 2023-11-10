@@ -6,12 +6,6 @@ header {
 }
 header .headerfixed {
   height: 160px;
-  background: wide 100;
-  height: 200 px;
-  background-image: url(../imagenes/fondoHeader.png);
-}
-header .headerfixed {
-  height: 160px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -31,86 +25,199 @@ header .headerfixed .encabezado {
   text-align: center;
   justify-content: center;
 }
-header .headerfixed .encabezado h1 {
+header .headerfixed .encabezado h1 .desk {
+  font-size: 70px;
+  font-weight: bold;
+}
+header .headerfixed .encabezado h2 .desk {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+header .headerfixed .encabezado .media {
+  display: none;
+}
+header .headerfixed .encabezado .media h1 {
+  display: none;
   font-size: 50px;
 }
-header .headerfixed .encabezado h1 .desk h1 {
-  font-size: 70px;
-}
-header .headerfixed .encabezado h1 .desk h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-header .headerfixed .encabezado h1 h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-header .headerfixed .encabezado h1 .media {
+header .headerfixed .encabezado .media h2 {
   display: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-header .headerfixed .encabezado .carrito {
+header .headerfixed .encabezado .media .logo {
+  display: none;
+  width: 135px;
   display: flex;
-  text-align: right;
-  margin-top: 100px;
-  align-items: end;
-  justify-content: right;
+  -webkit-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+  box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+  border-radius: 50%;
 }
-header .headerfixed .encabezado .carrito img {
-  padding: 5px;
-  width: 40px;
-  margin: 5px;
-}
-header .headerfixed label {
-  display: none;
-  margin-left: 25px;
-}
-header .headerfixed label:hover {
-  cursor: pointer;
-}
-header .headerfixed #btn_menu {
-  display: none;
-}
-header .headerfixed .media {
-  display: none;
-}
-header .headerfixed .navlista1 {
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary {
   background-color: #cbfccb;
+  padding: 0;
+  border-top: #335133 solid 3px;
+  border-bottom: #335133 solid 3px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-top: solid 3px #335133;
-  border-bottom: solid 3px #335133;
-  height: auto;
-  font-size: 25px;
-}
-header .headerfixed .navlista1 .navegacion1 {
-  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: auto;
   justify-content: space-around;
-  height: 45px;
 }
-header .headerfixed .navlista1 .navegacion1 .lista1 {
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid {
+  background-color: #cbfccb;
+  margin: 0;
+  padding-top: 0;
+  padding-top: 0;
+}
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .navbar-toggler {
+  padding: 3px;
+}
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .navbar-toggler-icon {
+  background-image: url(../imagenes/menuHamburguesa.png);
+}
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse {
+  background-color: #cbfccb;
+}
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav {
+  background-color: #cbfccb;
+}
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item {
+  background-color: #cbfccb;
   inline-size: none;
   display: inline-block;
   margin: 0px 20px 0px 20px;
   text-align: center;
+  font-size: 20px;
 }
-header .headerfixed .navlista1 .navegacion1 .lista1 a {
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #335133;
   font-weight: bold;
-  padding: 5px;
+  padding: 2px;
 }
-header .headerfixed .navlista1 .navegacion1 .lista1 a:hover {
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: #cbfccb;
   background-color: #335133;
-  padding: 7px;
+  padding: 2px;
   border-radius: 10px;
+}
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .carrito.desk {
+  margin-right: 10px;
+}
+header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .carrito.desk img {
+  width: 30px;
+  margin: 5px;
+  display: flex;
+  text-align: right;
+  align-items: end;
+  justify-content: right;
+}
+
+@media screen and (max-width: 768px) {
+  header .headerfixed {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  header .headerfixed .desk .logo {
+    display: none;
+  }
+  header .headerfixed .encabezado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  header .headerfixed .encabezado h1 .desk {
+    display: none;
+  }
+  header .headerfixed .encabezado h2 .desk {
+    display: none;
+  }
+  header .headerfixed .encabezado div.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .headerfixed .encabezado div.media h1 {
+    display: flex;
+    font-size: 50px;
+  }
+  header .headerfixed .encabezado div.media h2 {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  header .headerfixed .encabezado div.media .logo {
+    display: flex;
+  }
+  header .headerfixed .encabezado div.media .logo img {
+    width: 120px;
+    display: flex;
+    -webkit-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+    box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+    border-radius: 50%;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary {
+    background-color: #cbfccb;
+    padding: 0;
+    border-top: #335133 solid 3px;
+    border-bottom: #335133 solid 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid {
+    background-color: #cbfccb;
+    margin: 0;
+    padding-top: 0;
+    padding-top: 0;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .navbar-toggler {
+    padding: 3px;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .navbar-toggler-icon {
+    background-image: url(../imagenes/menuHamburguesa.png);
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse {
+    background-color: #cbfccb;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item {
+    text-align: start;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #335133;
+    font-weight: bold;
+    padding: 2px;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #cbfccb;
+    background-color: #335133;
+    padding: 2px;
+    border-radius: 10px;
+  }
+  header .headerfixed .encabezado .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .carrito.desk {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

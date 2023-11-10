@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5{
     color: #335133;
 }
 .navbar{
+    background-color: #cbfccb;
     padding: 0;
     border-top: #335133 solid 3px;
     border-bottom:  #335133 solid 3px;
@@ -30,25 +31,24 @@ h1, h2, h3, h4, h5{
     justify-content: space-around;
 }
  
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
     background-image: url(../imagenes/menuHamburguesa.png);
-}
-.navbar-toggler.collapsed {
+} */
+/* .navbar-toggler .collapsed {
     background-color: none;
-}
-.navbar-toggler {
+} */
+/* .navbar-toggler {
     padding: 3px;
-}
-.container-fluid{
+} */
+/* .container-fluid{
     background-color: #cbfccb;
     margin: 0;
     padding-top: 0;
     padding-top: 0;
-
-}
-.carrito{
+}  */
+/* .carrito{
     margin-right: 10px;
-}
+} */
 .carrito img{
     width: 30px;
     margin: 5px;
@@ -62,20 +62,19 @@ h1, h2, h3, h4, h5{
     display: inline-block;
     margin: 0px 20px 0px 20px;
     text-align: center;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 .nav-link { 
     color: #335133;
     font-weight: bold;
     padding: 2px;
-}
+} */
 .nav-link:hover {
     color: #cbfccb;
     background-color: #335133;
     padding: 2px;
-    border-radius: 10px;
-  }
+    border-radius: 10px; 
+  } 
 
 /* header */
 /* header {   
