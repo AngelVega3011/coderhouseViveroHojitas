@@ -58,7 +58,7 @@ header .headerfixed .encabezado .media .logo {
   box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
   border-radius: 50%;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary {
+header .headerfixed .navbar .navbar-expand-lg {
   background-color: #cbfccb;
   padding: 0;
   border-top: #335133 solid 3px;
@@ -70,25 +70,25 @@ header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary {
   margin: auto;
   justify-content: space-around;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid {
   background-color: #cbfccb;
   margin: 0;
   padding-top: 0;
   padding-top: 0;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .navbar-toggler {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid .navbar-toggler {
   padding: 3px;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .navbar-toggler-icon {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid .navbar-toggler-icon {
   background-image: url(../imagenes/menuHamburguesa.png);
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid .collapse.navbar-collapse {
   background-color: #cbfccb;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid .collapse.navbar-collapse .navbar-nav {
   background-color: #cbfccb;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item {
   background-color: #cbfccb;
   inline-size: none;
   display: inline-block;
@@ -96,12 +96,12 @@ header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid
   text-align: center;
   font-size: 20px;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #335133;
   font-weight: bold;
   padding: 2px;
 }
-header .headerfixed .navbar .navbar-expand-lg .bg-body-tertiary .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+header .headerfixed .navbar .navbar-expand-lg .container-fluid .collapse.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: #cbfccb;
   background-color: #335133;
   padding: 2px;
