@@ -9,16 +9,13 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        
-        .desk {
-            .logo {
-                width: 135px;
-                display: flex; 
-                -webkit-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
-                -moz-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
-                box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);                ;
-                border-radius: 50%;
-            }
+        .logo {
+            width: 135px;
+            display: flex; 
+            -webkit-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+            -moz-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
+            box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);                ;
+            border-radius: 50%;
         }
         .encabezado {
             display: flex;
@@ -26,46 +23,22 @@ header {
             align-items: star;
             text-align: center;
             justify-content: center;
+            margin-left: -100px;
             
-            h1 .desk {
-                    font-size: 70px;
-                    font-weight: bold;
+            h1 {
+                font-size: 70px;
+                font-weight: bold;
             }
-            h2 .desk {
-                    font-size: 30px;
-                    font-weight: bold;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-            }
-            .media{
-                display: none;
-                h1{ 
-                    display: none;
-                    font-size: 50px;
-                }
-                h2{
-                    display: none;
-                    font-size: 30px;
-                    font-weight: bold;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                }
-                .logo{
-                    display: none;
-                    width: 135px;
-                    display: flex; 
-                    -webkit-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
-                    -moz-box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);
-                    box-shadow: 10px 10px 17px 3px rgba(0, 0, 0, 0.66);                ;
-                    border-radius: 50%;
-                }
-
-            }
-                        
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }                       
             
         }
 
-        .navbar {
+        .navbar.navbar-expand-lg.navbar1 {
             background-color: #cbfccb;
             padding: 0;
             border-top: #335133 solid 3px;
@@ -76,11 +49,20 @@ header {
             align-items: center;
             margin: auto;
             justify-content: space-around;
-            .container-fluid{
-                background-color: #cbfccb;
+            .container-fluid{;
                 margin: 0;
                 padding-top: 0;
                 padding-top: 0;
+                background-color: #cbfccb;
+                padding: 0;
+                border-top: #335133 solid 3px;
+                border-bottom:  #335133 solid 3px;
+                display: flex; 
+                flex-direction: row; 
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                justify-content: space-around;
                 .navbar-toggler {
                     padding: 3px;
                 }
@@ -90,7 +72,10 @@ header {
                 .collapse.navbar-collapse{
                     background-color: #cbfccb;
                     .navbar-nav {
-                        background-color: #cbfccb;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: auto;
                         .nav-item {
                             background-color: #cbfccb;
                             inline-size: none;

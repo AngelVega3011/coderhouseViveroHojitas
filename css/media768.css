@@ -152,11 +152,6 @@
         padding: 0;
         font-size: 20px;
     }
-    #btn_menu:checked~.navlista1{
-        visibility: visible;
-        z-index: 9;
-        margin-left: 20px;
-    }
     
     .navbar .headerNav{
         position: absolute;
@@ -311,10 +306,10 @@
         gap: 20px;
     }
     
-    header {
+    /* header {
         margin: 0px;
         margin-bottom: 10px;
-    }
+    } */
     /* html super ofertas */
     .superOfertas h3 {
         font-size: 30px;        

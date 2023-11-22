@@ -1,0 +1,81 @@
+@media screen and (max-width:320px){
+    header {
+        margin: 0px;
+        margin-bottom: 10px;
+        .headerfixed {
+            height: 130px;
+            }
+            .encabezado {                
+                h1 {
+                    font-size: 36px;
+                }
+                h2 {
+                    font-size: 18px;
+            }
+            .logo{
+                img{
+                width: 80px;
+                }
+            }
+    
+            .navbar .navbar-expand-lg {
+                background-color: #cbfccb;
+                padding: 0;
+                border-top: #335133 solid 3px;
+                border-bottom:  #335133 solid 3px;
+                display: flex; 
+                flex-direction: row; 
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                justify-content: space-around;
+                .container-fluid{
+                    background-color: #cbfccb;
+                    margin: 0;
+                    padding-top: 0;
+                    padding-top: 0;
+                    .navbar-toggler {
+                        padding: 3px;
+                    }
+                    .navbar-toggler-icon {
+                        background-image: url(../imagenes/menuHamburguesa.png);
+                    }
+                    .collapse.navbar-collapse{
+                        background-color: #cbfccb;
+                        .navbar-nav {                            
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: left;
+                            text-align: left;
+                            .nav-item {
+                                text-align: start;
+                                .nav-link { 
+                                    color: #335133;
+                                    font-weight: bold;
+                                    padding: 2px;
+                                    &:hover {
+                                        color: #cbfccb;
+                                        background-color: #335133;
+                                        padding: 2px;
+                                        border-radius: 10px;
+                                    }
+                                }
+                                .carrito.desk{
+                                    display: none;
+                                }
+        
+                            }
+                        }                    
+    
+                    }
+    
+                }
+    
+            }
+        }
+    }
+    
+}
+
+
+    
